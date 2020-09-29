@@ -1,0 +1,29 @@
+.banner {
+  margin-top: 20px;
+  background: url("https://a0.muscache.com/im/pictures/16df1348-322f-4482-8694-3ccbdbf078b1.jpg?im_q=medq&im_w=1440")
+    center center;
+  height: 48vh;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  border-radius: 20px;
+}
+.banner_info {
+  padding-top: 8vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 400px;
+}
+.banner_info > Button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.banner_info > Button:hover {
+  background-color: white;
+  color: #ff7779;
+}

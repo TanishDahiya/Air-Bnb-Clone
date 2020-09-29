@@ -1,0 +1,29 @@
+.home_section{
+    display:flex;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width:90%;
+   
+}
+/*@media only screen and (max-width: 600px) {
+  .home_section {
+    margin: 20px auto !important;
+    position: relative !important;
+    max-width: 1760px !important;
+    padding-right: 80px !important;
+    padding-left: 80px !important;
+    
+  }
+}*/
+@media only screen and (max-width: 1200px) {  
+    .home_section{
+        display: flex;
+        flex-direction: row;
+        max-width: 1200px;
+        height:520px;
+        width: 1000px;
+       
+    } 
+
+}
