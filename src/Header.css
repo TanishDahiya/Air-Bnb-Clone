@@ -45,7 +45,7 @@
 }
 @media only screen and (max-width: 1200px) {  
     .header_center{
-        display: flex;
+        display:none !important;
        /* flex-direction: row;*/
        /* height:520px;
         width: 1000px;*/
@@ -148,7 +148,9 @@
 .header-right-avatar{
     height:50px;
     margin-top: auto;
+   
 }
+
 .search-icon:hover {
     background-color: white;
     color: #ff7779;

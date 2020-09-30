@@ -69,7 +69,7 @@ function Header() {
           <LanguageIcon />
           <ExpandMoreIcon />
           <div className="header-right-avatar">
-            <Avatar />
+            <Avatar className="gg"/>
           </div>
         </div>
       </div>

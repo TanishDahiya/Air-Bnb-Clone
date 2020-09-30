@@ -16,7 +16,8 @@ function SearchPage() {
           <Button variant="outlined">Rooms and beds</Button>
           <Button variant="outlined">More filters</Button>
         </div>
-        <Result
+      
+        <Result className="gg"
           img="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU"
           location="Private room in center of Delhi"
           title="20 mins to Red Fort"
@@ -29,7 +30,7 @@ function SearchPage() {
         <Result
           img="https://www.expatkings.com/wp-content/uploads/2018/10/Airbnb-rental-tips.-Hostmaker-1-620x349.jpg"
           location="Private room in center of Gurgaon"
-          title="Independant luxury studio apartment"
+          title="Luxury studio apartment"
           description="2 guest · 3 bedroom · 1 bed · 1.5 shared bathrooms · Wifi · Kitchen"
           star={4.3}
           price="₹4000 / night"
@@ -39,7 +40,7 @@ function SearchPage() {
         <Result
           img="https://www.smartertravel.com/uploads/2017/07/Untitled-design-8.jpg"
           location="Private room in center of Sonipat"
-          title="15 mins to Amrik Sukhdev Dhabba"
+          title="15 mins to Amrik Sukhdev"
           description="4 guest · 4 bedroom · 4 bed · 2 bathrooms · Free parking · Washing Machine"
           star={3.8}
           price="₹800 / night"
@@ -57,7 +58,7 @@ function SearchPage() {
         <Result
           img="https://media.cntraveler.com/photos/5a8f258bd363c34048b35aac/master/w_2250,h_1500,c_limit/airbnb-plus-london.jpg"
           location="Private room in center of Noida"
-          title="Spacious Peaceful Modern Bedroom"
+          title="Spacious Bedroom"
           description="3 guest · 1 bedroom · 1 bed · 1.5 shared bathrooms · Wifi · Free parking · Dry Cleaning"
           star={5.0}
           price="₹6000 / night"
@@ -81,6 +82,7 @@ function SearchPage() {
           price="₹1500 / night"
           total="₹6500 total"
         />
+        
       </div>
     );
 }

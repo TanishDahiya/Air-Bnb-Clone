@@ -28,6 +28,13 @@
     top: 20px;
     right: 40px;
 }
+@media only screen and (max-width: 1200px) {
+  .result__heart{
+    margin-top: 80px;
+    margin-right: 70px;
+  }
+}
+
 
 .result__infoTop {
     width: 40vw;
@@ -70,7 +77,16 @@
 
 .result__price {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     right: 30px;
 }
-
+@media only screen and (max-width: 1200px) {
+  .result__infoTop {
+    display: block;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .result__stars {
+    margin-left: -149px;
+  }
+}

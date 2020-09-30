@@ -2,6 +2,8 @@
     padding:20px;
 }
 
+
+
 .searchpage{
     display: flex;
     flex-direction: row;
@@ -19,3 +21,4 @@
    text-transform: inherit;
     margin: 5px;
   }
+
